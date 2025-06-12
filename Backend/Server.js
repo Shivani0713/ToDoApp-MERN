@@ -11,7 +11,8 @@ const PORT = process.env.PORT || 5000
 app.use(express.json())
 // app.use(cors())
 app.use(cors({
-  origin: 'http://localhost:3000'
+  // origin: 'http://localhost:3000'
+  origin : 'https://to-do-app-mern.vercel.app/'
 }));
 
 mongoose
